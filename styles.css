@@ -111,7 +111,7 @@ white-space: nowrap;
 }
 
 .hero-nav .nav-menu a {
-    border-bottom: 1px solid rgba (0, 0, 0, 0);
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
 
 /* Homepage Hero */ 
@@ -137,7 +137,7 @@ height: 100%;
 
 .hero-image-box::after {
     content: "";
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.4);
     height: 100%;
     width: 100%;
     position: absolute;
@@ -174,3 +174,116 @@ height: 100%;
     color: #fff;
 }
 
+.hero-button {
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    background: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-top: 2rem;
+
+}
+
+.hero-button:hover {
+    transform: scale(0.95);
+}
+
+.hero-button:active {
+    background: rgba(0,0,0,0.3);
+}
+
+/* footer nav extra styles */
+
+.footer-logo {
+    white-space: nowrap;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.footer-social {
+    color: black;
+    padding: 0 1rem;
+}
+
+.footer-copyright {
+    text-align: center;
+    padding-bottom: 6rem;
+}
+
+/* add media queries for large screens */
+
+@media (min-width: 600px) {
+    .nav-bar {
+        line-height: 1.5rem;
+    }
+    .nav-menu {
+        padding: 0 1rem;
+    }
+    .nav-item {
+        flex: 1 1;
+    }
+    .hero-nav {
+        padding-bottom: 1rem;
+    }
+    .hero-heading {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+    .hero-text-box {
+        padding: 2rem;
+    }
+
+    .hero-text{
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .footer-nav {
+        padding-top: 2rem;
+    }
+
+    .footer-logo {
+        flex-basis: 100%;
+    }
+
+}
+
+@media (min-width: 920px) {
+    body {
+        max-width: 1400px;
+    }
+    .hero-body {
+        max-width: unset;
+    }
+
+    .nav-bar {
+        justify-content: space-between;
+        padding: 1rem 0;
+        margin: 1rem auto 2rem auto;
+        line-height: 1rem;
+    }
+
+    .nav-menu {
+        width: auto;
+        justify-self: end;
+    }
+
+    .logo {
+        margin: 0 0 0 0.3rem;
+        justify-self: start;
+    }
+    .hero-nav {
+        width: 100%;
+    }
+
+    .footer-nav {
+        justify-content: space-evenly;
+    }
+}
