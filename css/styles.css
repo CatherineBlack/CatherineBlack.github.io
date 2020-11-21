@@ -277,6 +277,21 @@ height: 100%;
     grid-row: span 1;
 }
 
+/* styles for embedded shop page */ 
+
+.shop-page {
+    padding: 2rem 1rem 10rem 1rem;
+}
+
+.shop-page h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+.shop-page .text-box {
+    max-width: 80ch;
+    margin: 0 auto;
+}
 
 /* footer nav extra styles */
 
