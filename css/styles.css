@@ -80,12 +80,12 @@ white-space: nowrap;
 .nav-menu a {
     font-weight: 400;
     letter-spacing: 0.1rem;
-    border-bottom: 1px solid #fff;
+    
     transition: all ease 0.1s;
 }
 
 .nav-menu a:hover {
-    border-bottom: 1px solid #000;
+   
 }
  
 /* Hero Header Navbar Changes */
@@ -107,11 +107,11 @@ white-space: nowrap;
 }
 
 .hero-nav .nav-menu a:hover {
-    border-bottom: 1px solid #ffffff;
+    
 }
 
 .hero-nav .nav-menu a {
-    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    
 }
 
 /* Homepage Hero */ 
